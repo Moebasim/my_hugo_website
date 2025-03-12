@@ -11,4 +11,4 @@ skillsets:
 
 Welcome to my first Hugo blog post!
 
-{{< github account : "moebasim" >}}
+{{< github repo="Moebasim/my_hugo_website" >}}
