@@ -1,7 +1,4 @@
 baseURL = "http://localhost:8080/"
 languageCode = "en-us"
-title = "My hugo static website"
-theme = "mytheme"
-
-[taxonomies]
-    skillset = "skillsets"
+title = "My Hugo Site"
+theme = "ananke"

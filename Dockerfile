@@ -7,7 +7,7 @@ RUN git clone --depth=1 https://github.com/gohugoio/hugo.git && \
 # Clone and build the Hugo site
 FROM builder AS site-builder
 WORKDIR /site
-RUN git clone --depth=1 https://github.com/your-username/your-hugo-repo.git website
+RUN git clone --depth=1 https://github.com/Moebasim/my_hugo_website.git website
 WORKDIR /site/website
 RUN /app/hugo -D
 
